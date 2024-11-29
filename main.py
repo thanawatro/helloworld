@@ -1,6 +1,10 @@
-def sayHello():
-    print("Hello World")
+import os
 
+def main():
+  my_name = os.getenv('MY_NAME')
+  my_secret = os.getenv('MY_SECRET')
+  print(f"Name: {my_name}")
+  print(f"Secret: {my_secret}")
 
-def sayGoodbye():
-    print("Goodbye Ja")
+if __name__ == "__main__":
+  main()
