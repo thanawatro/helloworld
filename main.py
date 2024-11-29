@@ -1,6 +1,6 @@
 def sayHello():
-  print("Hello World")
+    print("Hello World")
+
 
 def sayGoodbye():
-  print("Goodbye Ja")
-  
+    print("Goodbye Ja")
